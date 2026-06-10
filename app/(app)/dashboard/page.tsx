@@ -6,14 +6,14 @@ import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import Link from "next/link";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Alert, AlertDescription } from "@/components/ui/alert";
-import { useAuth } from "@/app/_components/AuthProvider";
-import { authApi, mealPlanApi, nutritionTipApi, settingsApi, paymentsApi } from "@/app/_lib/api";
-import type { MealPlan, PCOSProfile, NutritionTip, Subscription } from "@/app/_lib/types";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../../../components/ui/card";
+import { Button } from "../../../components/ui/button";
+import { Badge } from "../../../components/ui/badge";
+import { Skeleton } from "../../../components/ui/skeleton";
+import { Alert, AlertDescription } from "../../../components/ui/alert";
+import { useAuth } from "../../_components/AuthProvider";
+import { authApi, mealPlanApi, nutritionTipApi, settingsApi, paymentsApi } from "../../_lib/api";
+import type { MealPlan, PCOSProfile, NutritionTip, Subscription } from "../../_lib/types";
 import {
   Scan,
   Utensils,
