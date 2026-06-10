@@ -11,9 +11,9 @@ import { Button } from "../../../components/ui/button";
 import { Badge } from "../../../components/ui/badge";
 import { Skeleton } from "../../../components/ui/skeleton";
 import { Alert, AlertDescription } from "../../../components/ui/alert";
-import { useAuth } from "../../_components/AuthProvider";
-import { authApi, mealPlanApi, nutritionTipApi, settingsApi, paymentsApi } from "../../_lib/api";
-import type { MealPlan, PCOSProfile, NutritionTip, Subscription } from "../../_lib/types";
+import { useAuth } from "../_components/AuthProvider";
+import { authApi, mealPlanApi, nutritionTipApi, settingsApi, paymentsApi } from "../_lib/api";
+import type { MealPlan, PCOSProfile, NutritionTip, Subscription } from "../_lib/types";
 import {
   Scan,
   Utensils,

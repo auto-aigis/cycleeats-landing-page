@@ -10,8 +10,8 @@ import { Textarea } from "../../../components/ui/textarea";
 import { Badge } from "../../../components/ui/badge";
 import { Skeleton } from "../../../components/ui/skeleton";
 import { Alert, AlertDescription } from "../../../components/ui/alert";
-import { askApi, authApi } from "../../_lib/api";
-import type { AskUsage } from "../../_lib/types";
+import { askApi, authApi } from "../_lib/api";
+import type { AskUsage } from "../_lib/types";
 import { Loader2, Lock, Crown, Send, MessageCircle } from "lucide-react";
 
 interface Message { id: string; question: string; answer: string; asked_at: string; }
